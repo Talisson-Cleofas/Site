@@ -2,11 +2,6 @@ import './CampoTexto.css'
 
 
 const CampoTexto = (props) => {
-    const placeholder = `${props.placeholder}...`
-    
- 
-    
-    
     //guardar valor digitado
     const aoDigitado = (evento) => {
         props.aoAlterado(evento.target.value)
