@@ -166,7 +166,7 @@ function App() {
       nome={estado.nome} 
       corPrimaria={estado.corPrimaria}
       corSecundaria={estado.corSecundaria}
-      hotels={hotels.filter(hotel => hotel.estado == estado.nome)}
+      hotels={hotels.filter(hotel => hotel.estado === estado.nome)}
       
       />)}
 
